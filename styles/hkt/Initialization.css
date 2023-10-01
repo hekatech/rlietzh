@@ -1,0 +1,108 @@
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+.highlight.plaintext {
+  clear: both;
+}
+@font-face {
+  font-family: 'tukushi';
+  src: url("/font/B-maruS-r.woff2") format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'tukushi';
+  src: url("/font/B-maruS-b.woff2") format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+p {
+  text-align: justify;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #57615c;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: #c34848;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5em;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: #c34848;
+  font-weight: 600;
+  line-height: 1.5em;
+}
+h2::before {
+  content: '+ ';
+}
+h2::after {
+  content: ' +';
+}
+h3::before {
+  content: '✦ ';
+}
+h3::after {
+  content: ' ✦';
+}
+h4::before {
+  content: '+ ';
+}
+h4::after {
+  content: ' ɞ';
+}
+body {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+img {
+  max-width: 100%;
+  transition: all 0.5s;
+}
+.mobile-header {
+  display: none;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 20px;
+}
+h4 {
+  font-size: 18px;
+}
+ul+h4,
+h4+ul,
+h4+h5,
+h5+h4,
+blockquote+h4,
+h4+blockquote,
+.highlight+h4,
+h4+.highlight,
+h4+.gallery,
+.gallery+h4 {
+  margin-top: 1.5em;
+}
+div {
+  box-sizing: border-box;
+}
+svg {
+  max-width: 100%;
+}

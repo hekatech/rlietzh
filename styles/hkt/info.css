@@ -1,0 +1,94 @@
+.info {
+  margin: 0 0.5em;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  font-size: 0.9em;
+  line-height: 1.8;
+}
+.info h2 {
+  flex-basis: 100%;
+}
+.info h2 a:hover {
+  color: back-a;
+}
+.info ul {
+  display: inline-flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+.info ul li {
+  margin-right: 1em;
+}
+.info ul li a {
+  color: hlt-2;
+}
+.info ul li a:hover {
+  color: back-a;
+}
+.info .word-count {
+  font-family: font-sans;
+  color: back-a;
+  display: flex;
+  margin-right: 1em;
+}
+.info .word-count .fontawsome {
+  margin-right: 0.5em;
+}
+.info .word-count span {
+  color: hlt-2;
+  vertical-align: baseline;
+}
+.info .word-count span svg {
+  margin-bottom: -0.1em;
+}
+.info .word-count span svg path {
+  fill: #8ab2ab;
+}
+.article-category-list-item::before {
+  content: '◈ ';
+  color: font-2;
+}
+.article-tag-list-item::before {
+  content: '＃ ';
+  color: font-2;
+}
+.article-tag-list {
+  margin-right: 0.5em;
+}
+.article-date {
+  color: back-a;
+  font-family: font-sans;
+}
+.article-date::before {
+  content: '>>>';
+  margin: 0 0.5em;
+}
+.word-count.vst,
+.word-count.cmt {
+  display: inline-block;
+  position: absolute;
+  background: hlt-1;
+  top: 0;
+  right: 1em;
+  color: #fff;
+  writing-mode: vertical-lr;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.word-count.cmt span,
+.word-count.vst span {
+  color: inherit;
+}
+.word-count.vst span::before,
+.word-count.cmt span::before {
+  content: '✦ ';
+}
+.word-count.cmt {
+  right: 4em;
+  background: font-2;
+  padding-top: 2.5em;
+}

@@ -1,0 +1,49 @@
+body,
+.v * {
+  font-size: 17px;
+  font-family: font-sans, ffxiv;
+  line-height: 2em;
+  font-weight: 400;
+  word-break: break-word;
+}
+.article-date,
+.code pre,
+.word-count,
+.archive-list-item,
+code {
+  font-family: font-mono;
+  word-break: normal;
+}
+.highlight {
+  line-height: 1.8em;
+}
+.list-info .article-tag-list {
+  word-break: keep-all;
+}
+a {
+  text-decoration: none;
+  transition: all 0.5s;
+  color: font-2;
+}
+li a,
+.main-footer a {
+  color: font-2;
+}
+.article-info a,
+.mobile-header a,
+.card-header a {
+  color: #fff;
+}
+a:hover {
+  color: font-3;
+}
+.article-entry a:hover,
+.main-footer a:hover {
+  text-shadow: text-light;
+}
+.article-info a:hover,
+.mobile-header a:hover,
+.card-header a:hover {
+  color: #fff;
+  text-shadow: 0px 0px 10px font-3;
+}

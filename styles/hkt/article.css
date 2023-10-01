@@ -1,0 +1,31 @@
+.article-entry >ul,
+.article-entry .hidden-post >ul {
+  color: font-1;
+  margin-left: 2em;
+}
+.article-entry li::marker {
+  color: hlt-1;
+}
+.article-entry a {
+  border-bottom: 1px solid font-2;
+}
+.article-entry #more {
+  display: block;
+  text-align: center;
+  margin-bottom: 1em;
+  color: back-a;
+}
+.article-entry #more span {
+  font-size: 1.5em;
+}
+.hidden-post {
+  max-height: 10em;
+  overflow: hidden;
+  margin-top: 1.5em;
+  opacity: 0.5;
+  position: relative;
+  padding-left: 2em;
+}
+.hidden-post .ps-scrollbar-y-rail {
+  left: 1em !important;
+}
