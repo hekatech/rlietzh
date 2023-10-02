@@ -37,7 +37,7 @@
 .post-body {
   position: relative;
 }
-.post-body .post-icon {
+.post-body >.post-icon {
   position: absolute;
   top: -200px;
   right: -100px;
