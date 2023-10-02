@@ -34,3 +34,14 @@
 .hidden-post .ps-scrollbar-y-rail {
   left: 1em !important;
 }
+.post-body {
+  position: relative;
+}
+.post-body .post-icon {
+  position: absolute;
+  top: -200px;
+  right: -100px;
+  opacity: 0.5;
+  mix-blend-mode: hard-light;
+  z-index: -1;
+}
