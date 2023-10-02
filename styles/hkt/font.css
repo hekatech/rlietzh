@@ -1,6 +1,6 @@
 body,
 .v * {
-  font-size: 17px;
+  font-size: 16px;
   font-family: font-sans, ffxiv;
   line-height: 2em;
   font-weight: 400;
@@ -22,7 +22,6 @@ code {
 }
 a {
   text-decoration: none;
-  transition: all 0.5s;
   color: font-2;
 }
 li a,

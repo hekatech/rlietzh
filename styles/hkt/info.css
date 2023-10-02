@@ -27,23 +27,23 @@
 .info ul li a:hover {
   color: back-a;
 }
-.info .word-count {
+.word-count {
   font-family: font-sans;
   color: back-a;
   display: flex;
   margin-right: 1em;
 }
-.info .word-count .fontawsome {
+.word-count .fontawsome {
   margin-right: 0.5em;
 }
-.info .word-count span {
+.word-count span {
   color: hlt-2;
   vertical-align: baseline;
 }
-.info .word-count span svg {
+.word-count span svg {
   margin-bottom: -0.1em;
 }
-.info .word-count span svg path {
+.word-count span svg path {
   fill: #8ab2ab;
 }
 .article-category-list-item::before {
@@ -91,4 +91,7 @@
   right: 4em;
   background: font-2;
   padding-top: 2.5em;
+}
+.word-count-symbol {
+  margin-right: 0.5em;
 }

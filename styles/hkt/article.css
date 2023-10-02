@@ -6,6 +6,11 @@
 .article-entry li::marker {
   color: hlt-1;
 }
+.article-entry ul {
+  opacity: 0.9;
+  font-size: 15px;
+  line-height: 2;
+}
 .article-entry a {
   border-bottom: 1px solid font-2;
 }

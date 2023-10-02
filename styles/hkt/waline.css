@@ -47,7 +47,6 @@
   border-radius: 5px;
   border: 1px solid d-gray;
   color: #000;
-  transition: all 0.5s;
   box-sizing: border-box;
   padding: 0 0.5em;
 }
@@ -175,7 +174,6 @@
   background: transparent;
   border: 0;
   cursor: pointer;
-  transition: all 0.5s;
 }
 #waline .at {
   color: d-gray;
@@ -194,7 +192,6 @@
 #waline .wl-nick a {
   line-height: 1em;
   color: l-gray;
-  transition: all 0.5s;
 }
 #waline .wl-input.wl-nick {
   line-height: inherit;
@@ -223,7 +220,6 @@
 #waline .wl-login-nick {
   line-height: 1em;
   color: l-gray;
-  transition: all 0.5s;
 }
 #waline .wl-login-nick:hover {
   background: rgba(0,0,0,0.9);

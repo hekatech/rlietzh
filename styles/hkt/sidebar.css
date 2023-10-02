@@ -55,6 +55,7 @@
 }
 .sidebar .body li .archive-list {
   padding-left: 0;
+  transition: unset;
 }
 .sidebar .body li .archive-list-item {
   margin-right: 2em;

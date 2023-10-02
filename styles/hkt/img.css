@@ -201,6 +201,7 @@
   margin-bottom: 1em;
   max-height: 450px;
   padding: 0;
+  list-style-type: none;
 }
 .gallery .article-gallery-img,
 .gallery .article-gallery-img a img {

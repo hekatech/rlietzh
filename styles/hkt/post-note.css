@@ -57,14 +57,10 @@ h2 + .post-card-body {
   height: 100%;
   display: block;
 }
-.post-card-item.with-cover img {
-  display: block;
+.post-card-item.with-cover a img {
   opacity: 0.7;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
-.post-card-item.with-cover img:hover {
+.post-card-item.with-cover a img:hover {
   opacity: 1;
 }
 .post-card-item .paper {
@@ -96,6 +92,7 @@ h2 + .post-card-body {
   background: hlt-1;
   box-shadow: paper-shadow;
   transform: rotate(-10deg);
+  z-index: 1;
 }
 .post-card-item.with-cover .paper {
   background-color: rgba(188,221,215,0.5);
@@ -139,7 +136,7 @@ h2 + .post-card-body {
   width: 6em;
   height: 5em;
   right: 2em;
-  bottom: 0.2em;
+  bottom: -0.2em;
   position: absolute;
   background: hlt-3;
   box-shadow: paper-shadow;
@@ -157,7 +154,7 @@ h2 + .post-card-body {
 }
 .card-more:hover {
   background: back-a;
-  bottom: 0;
+  bottom: -0.4em;
 }
 .paper .word-count {
   box-shadow: paper-shadow;
@@ -171,15 +168,51 @@ h2 + .post-card-body {
   writing-mode: horizontal-tb;
   top: auto;
   right: auto;
-  left: 0;
-  bottom: 2.5em;
+  left: -0.5em;
+  bottom: 2em;
   padding: 0 1em;
 }
 .paper .word-count.cmt {
-  right: -2em;
-  top: 2em;
+  right: -2.5em;
+  top: 2.5em;
   writing-mode: horizontal-tb;
   padding: 0 1em 0 2em;
   transform: rotate(15deg);
   opacity: 0.8;
+}
+.post-cover img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.paper {
+  position: relative;
+}
+.paper .post-icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  opacity: 0.4;
+  z-index: -1;
+  mix-blend-mode: soft-light;
+}
+.paper .post-icon img {
+  height: 20em;
+  position: absolute;
+  right: -6em;
+  top: -8em;
+}
+.is-note .paper .post-icon img {
+  left: -6em;
+  bottom: -8em;
+  right: auto;
+  top: auto;
+  transform: rotate(-15deg);
+}
+.is-note .paper .post-icon {
+  opacity: 0.2;
 }

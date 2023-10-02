@@ -2,8 +2,7 @@
   .post-card-body {
     columns: 1;
   }
-  .article-toc,
-  .post-list-item .post-cover {
+  .article-toc {
     display: none;
   }
   .post-body {
@@ -16,6 +15,7 @@
   .pagination {
     flex-shrink: 1;
     width: auto;
+    min-width: auto;
   }
   .pagination * {
     font-size: 12px;
@@ -29,17 +29,8 @@
   .pagination>a:hover {
     padding-left: 0;
   }
-  .post-list-item .article-tag-list .article-tag-list-item:not(:nth-child(1)) {
-    display: none;
-  }
-  .post-list-item .list-header .article-date {
-    padding-right: 0.5em;
-  }
-  .post-list-item {
-    margin-left: 1.5em;
-  }
-  .post-list-item .list-pointer {
-    left: -2em;
+  .post-list-item .post-cover {
+    height: auto;
   }
   .sidebar {
     position: fixed;

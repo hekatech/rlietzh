@@ -22,7 +22,6 @@
   font-size: 24px;
   opacity: 0;
   color: l-gray;
-  transition: all 0.5s;
   text-shadow: none;
 }
 .ark-box .box-in .box-cover {
@@ -33,7 +32,6 @@
   opacity: 0.9;
   filter: grayscale(50%);
   border-radius: 10px;
-  transition: all 0.5s;
 }
 .ark-box .box-in:hover {
   background-color: #000 !important;

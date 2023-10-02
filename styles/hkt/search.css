@@ -9,7 +9,6 @@
   top: 0;
   padding: 2em;
   z-index: 1;
-  transition: all 0.5s;
   text-align: left;
   overflow: auto;
   box-sizing: border-box;

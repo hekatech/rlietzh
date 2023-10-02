@@ -1,32 +1,40 @@
-#tag-list {
+#tag-list,
+#category-list {
+  display: none;
+}
+#tag-box #tag-list {
   display: flex;
   flex-wrap: wrap;
 }
-#tag-list li {
+#tag-box #tag-list li {
   display: block;
   width: 7em;
   position: relative;
   margin: 0.5em 1em 0 0;
   background: font-2;
-  transition: all 0.5s;
   box-shadow: paper-shadow;
   flex-shrink: 2;
 }
-#tag-list li a {
+#tag-box #tag-list li a {
   display: inline-block;
   width: 100%;
   text-align: center;
   border: 0;
   color: #fff;
 }
-#tag-list li:hover {
+#tag-box #tag-list li:hover {
   background: hlt-1;
   width: 8em;
 }
-#tag-list li:hover a {
+#tag-box #tag-list li:hover a {
   color: #fff;
   text-shadow: none;
 }
 ul .count::before {
   content: '✦ ';
+}
+#cat-box #category-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
