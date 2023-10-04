@@ -9,6 +9,13 @@
 
 
     <url>
+        <loc>https://r-027.hekatech.cc/categories/%25E5%25A4%25A9%25E4%25BD%25BF%25E3%2581%25AF%25E5%2594%2584%25E3%2581%2586/</loc>
+        <lastmod>2023-10-04T03:16:06.990Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://r-027.hekatech.cc/categories/%25E7%25BE%25BD%25E3%2581%25AE%25E3%2582%25AB%25E3%2582%25B1%25E3%2583%25A9/</loc>
         <lastmod>2023-10-02T08:51:12.087Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -32,13 +39,6 @@
     <url>
         <loc>https://r-027.hekatech.cc/categories/%25E6%2597%2585%25E4%25BA%25BA%25E3%2581%25AE%25E3%2583%25AF%25E3%2583%25AB%25E3%2583%2584/</loc>
         <lastmod>2023-09-11T01:34:48.314Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://r-027.hekatech.cc/categories/%25E5%25A4%25A9%25E4%25BD%25BF%25E3%2581%25AF%25E5%2594%2584%25E3%2581%2586/</loc>
-        <lastmod>2023-09-08T13:10:49.134Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

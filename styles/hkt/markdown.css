@@ -107,6 +107,10 @@ blockquote::before,
 .lirics p {
   break-inside: avoid;
 }
+.lirics .lrc-c {
+  margin-right: 3em;
+  margin-left: 2em;
+}
 .lirics .lrc-a {
   margin-right: 3em;
 }

@@ -80,7 +80,7 @@ img {
   display: none;
 }
 h2 {
-  font-size: 40px;
+  font-size: 36px;
 }
 h3 {
   font-size: 20px;
@@ -322,6 +322,10 @@ blockquote::before,
 }
 .lirics p {
   break-inside: avoid;
+}
+.lirics .lrc-c {
+  margin-right: 3em;
+  margin-left: 2em;
 }
 .lirics .lrc-a {
   margin-right: 3em;
@@ -898,11 +902,12 @@ h2 + .post-card-body {
 .post-card-body {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 .post-card-item {
   flex-shrink: 1;
   flex-grow: 1;
-  flex-basis: 40%;
+  flex-basis: 50%;
   box-shadow: border-box;
   min-width: 20em;
   position: relative;
@@ -912,7 +917,7 @@ h2 + .post-card-body {
 .post-card-item.is-note {
   flex-shrink: 2;
   min-width: 18em;
-  flex-basis: 30%;
+  flex-basis: 27%;
   max-width: 100%;
   padding-top: 1.2em;
   padding-bottom: 1em;
@@ -941,10 +946,10 @@ h2 + .post-card-body {
 .post-card-item.with-cover {
   flex-shrink: 3;
   min-width: 10em;
-  max-height: 40vh;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
   margin: 0 0.5em;
+  flex-basis: 35%;
 }
 .post-card-item.with-cover a {
   width: 100%;
@@ -1074,12 +1079,6 @@ h2 + .post-card-body {
   transform: rotate(15deg);
   opacity: 0.8;
 }
-.post-cover img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 .paper {
   position: relative;
 }
@@ -1109,6 +1108,13 @@ h2 + .post-card-body {
 }
 .is-note .paper .post-icon {
   opacity: 0.2;
+}
+.paper .post-cover img {
+  display: block;
+  max-height: 40vh;
+  min-height: 30vh;
+  width: 100%;
+  object-fit: cover;
 }
 .post-list {
   margin: 2em 1em 0 1em;
