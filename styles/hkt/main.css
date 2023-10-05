@@ -233,7 +233,7 @@ strong {
 }
 strong,
 strong em {
-  text-shadow: 0 0 1px, 0 0 1px, 0 0 1px;
+  text-shadow: 0 0 1px, 0 0 1px;
 }
 em strong {
   color: #e3aea3;
