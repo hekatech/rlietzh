@@ -49,8 +49,9 @@
   display: block;
   width: 15em;
   margin: 0 1em 0.5em 0;
-  max-width: 30%;
+  max-width: 25%;
   height: 6em;
+  flex-shrink: 0;
 }
 .post-list-item .post-cover img {
   box-sizing: border-box;

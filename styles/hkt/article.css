@@ -1,3 +1,6 @@
+.article-entry {
+  color: font-1;
+}
 .article-entry >ul,
 .article-entry .hidden-post >ul {
   color: font-1;
