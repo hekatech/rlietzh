@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /tags/
+Allow: /about/
+Allow: /ask/
+Disallow: /js/
+Disallow: /css/
+
+Sitemap: https://r-027.hekatech.cc/sitemap.xml
