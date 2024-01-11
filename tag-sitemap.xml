@@ -3,6 +3,20 @@
 
 
     <url>
+        <loc>https://r-027.hekatech.cc/tags/%E7%BF%BB%E5%94%B1/</loc>
+        <lastmod>2024-01-11T11:36:46.469Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://r-027.hekatech.cc/tags/%E6%AD%8C%E8%AF%8D/</loc>
+        <lastmod>2024-01-11T11:36:46.469Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://r-027.hekatech.cc/tags/%E4%BC%81%E5%88%92/</loc>
         <lastmod>2023-11-27T23:22:28.625Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -38,22 +52,8 @@
     </url>
 
     <url>
-        <loc>https://r-027.hekatech.cc/tags/%E6%AD%8C%E8%AF%8D/</loc>
-        <lastmod>2023-10-21T23:07:51.812Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://r-027.hekatech.cc/tags/%E4%BE%BF%E7%AD%BE/</loc>
         <lastmod>2023-10-15T20:56:03.227Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://r-027.hekatech.cc/tags/%E7%BF%BB%E5%94%B1/</loc>
-        <lastmod>2023-10-10T18:55:58.383Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

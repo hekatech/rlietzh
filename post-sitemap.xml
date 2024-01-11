@@ -9,6 +9,22 @@
 
 
     <url>
+        <loc>https://r-027.hekatech.cc/2024/240111-kimigaireba/</loc>
+        <lastmod>2024-01-11T11:36:46.469Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://r-027.hekatech.cc/2023/231010-tomoshibi/</loc>
+        <lastmod>2024-01-11T09:25:53.354Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://r-027.hekatech.cc/2023/231125-fes/</loc>
         <lastmod>2023-11-27T23:22:28.625Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -43,14 +59,6 @@
     <url>
         <loc>https://r-027.hekatech.cc/2023/231016-note/</loc>
         <lastmod>2023-10-15T20:56:03.227Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://r-027.hekatech.cc/2023/231010-tomoshibi/</loc>
-        <lastmod>2023-10-10T18:55:58.383Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
